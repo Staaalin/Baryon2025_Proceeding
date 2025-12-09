@@ -140,38 +140,81 @@ Thus, we define the correlation function:
 where the normalization factor $N$ is chosen such that the sum of positive bins of $C^{\text{CBS}}_{KH}(\Delta y)$ equals unity.
 
 \section{Analysis Result}
-We mainly performed simulations by A Multi-Phase Transport (AMPT) model~\cite{Lin:2004en} (Version: 2.25t7cu StringMelting) for $K-\Lambda$ and $K-\Xi$, and Ultra-relativistic Quantum Molecular Dynamics (UrQMD)~\cite{Bass:1998ca} for $K-\Lambda$ only. 
 
-There are one valence s quark in $\Lambda$ and two in $\Xi$
+We perform model simulations using A Multi-Phase Transport (AMPT) model~\cite{Lin:2004en} (Version 2.25t7cu with String Melting) for both $K\!-\!\Lambda$ and $K\!-\!\Xi$, and Ultra-relativistic Quantum Molecular Dynamics (UrQMD)~\cite{Bass:1998ca} for $K\!-\!\Lambda$.  
+A detector acceptance cut $\string| \eta \string| < 1.5$ is applied to both kaons and hyperons to mimic realistic experimental conditions.
+
+Both $C^{\text{CBS}}_{K\Lambda}(\Delta y)$ and $C^{\text{CBS}}_{K\Xi}(\Delta y)$ at 39 and 62 GeV exhibit similar patterns, as shown in Fig.~\ref{FIG_Acc_AMPT}.  
+The peak appears in the region $\Delta y \simeq -1.5 \sim 0.5$, indicating that the correlated kaons tend to be emitted slightly slower than the corresponding hyperons that carry baryon number.  
+
+For hyperons emitted with positive (negative) rapidity, the correlation functions $C^{\text{CBS}}_{KH_{y>0}}(\Delta y)$ and $C^{\text{CBS}}_{KH_{y<0}}(\Delta y)$ are shown as blue and red markers, respectively, in Fig.~\ref{FIG_Acc_AMPT}.  
+Their difference $C^{\text{CBS}}_{KH_{y>0}}(\Delta y) - C^{\text{CBS}}_{KH_{y<0}}(\Delta y)$ is plotted as black points, where peaks and nearby points are connected by red lines to highlight the contrast.
 
 \begin{figure*}[!htb]
   \begin{subfigure}{0.24\hsize}
       \centering
       \includegraphics[width=\hsize]{fig/39_KpL_AMPT.jpg}
-      % \caption{}
+      \caption{}
       \label{39_KpL_AMPT}
   \end{subfigure}
   \begin{subfigure}{0.24\hsize}
       \centering
       \includegraphics[width=\hsize]{fig/39_KpX_AMPT.jpg}
-      % \caption{}
+      \caption{}
       \label{39_KpX_AMPT}
   \end{subfigure}
   \begin{subfigure}{0.24\hsize}
       \centering
       \includegraphics[width=\hsize]{fig/62_KpL_AMPT.jpg}
-      % \caption{}
+      \caption{}
       \label{62_KpL_AMPT}
   \end{subfigure}
   \begin{subfigure}{0.24\hsize}
       \centering
       \includegraphics[width=\hsize]{fig/62_KpX_AMPT.jpg}
-      % \caption{}
+      \caption{}
       \label{62_KpX_AMPT}
   \end{subfigure}
-  \caption{AMPT calculations of $K-\Lambda$ (left) and $K-\Xi$ (right).}
-  \label{FIG_39_AMPT}
+  \caption{AMPT calculations of $K\!-\!\Lambda$ and $K\!-\!\Xi$ at 39 and 62 GeV.}
+  \label{FIG_Acc_AMPT}
 \end{figure*}
+
+From Fig.~\ref{39_KpL_AMPT} and Fig.~\ref{62_KpL_AMPT}, one observes that at 39 GeV, $\Lambda_{y>0}$ preferentially correlates with slower kaons compared to $\Lambda_{y<0}$, while an opposite trend emerges at 62 GeV.  
+This indicates that hyperons carrying the initial proton baryon number tend to correlate with faster kaons at higher energies, possibly because the initial protons experience more collisions than Au nucleons on average, resulting in stronger baryon stopping at higher energies.  
+A similar trend is observed in UrQMD simulations, as shown in Fig.~\ref{FIG_Acc_UrQMD}.  
+
+For $\Xi$, the behavior differs: in both energies, $\Xi_{y>0}$ correlates with faster kaons than $\Xi_{y<0}$, as seen in Fig.~\ref{39_KpX_AMPT} and Fig.~\ref{62_KpX_AMPT}.  
+This suggests that hyperons containing more initial valence quarks (i.e., fewer valence $s$ quarks) tend to correlate with slower kaons when carrying proton baryon number.  
+This behavior is consistent with the valence-quark picture, since $u$ and $d$ quarks from the proton carry larger momentum and thus undergo less stopping, leading to a smaller rapidity gap between the final baryon and meson.
+
+\begin{figure*}[!htb]
+  \begin{subfigure}{0.24\hsize}
+      \centering
+      \includegraphics[width=\hsize]{fig/39_KpL_UrQMD.jpg}
+      \caption{}
+      \label{39_KpL_UrQMD}
+  \end{subfigure}
+  \begin{subfigure}{0.24\hsize}
+      \centering
+      \includegraphics[width=\hsize]{fig/62_KpL_UrQMD.jpg}
+      \caption{}
+      \label{62_KpL_UrQMD}
+  \end{subfigure}
+  \caption{UrQMD calculations of $K\!-\!\Lambda$ at 39 and 62 GeV.}
+  \label{FIG_Acc_UrQMD}
+\end{figure*}
+
+\section{Conclusion and Outlook}
+
+Because $s\bar{s}$ quark pairs are produced during hadronization, kaon–hyperon correlations provide a sensitive probe of both hadronization dynamics and baryon stopping.  
+By comparing same-event and mixed-event distributions, we extract the correlation on relative rapidity using a new method based on $C^{\text{CBS}}_{KH}(\Delta y)$.  
+In p+Au collisions, hyperons with positive rapidity are more likely to carry the initial proton baryon number, resulting in stronger baryon stopping, as demonstrated for $K\!-\!\Lambda$ and $K\!-\!\Xi$ at 39 and 62 GeV in both AMPT and UrQMD.  
+We also observe that hyperons with fewer valence $s$ quarks show weaker stopping, consistent with the valence-quark picture.  
+These results serve as a useful baseline for future experimental studies and may help discriminate the baryon-junction mechanism.  
+We therefore plan to apply this analysis to experimental data in upcoming work.
+
+
+
 
 \bibliographystyle{elsarticle-num} % 或 elsarticle-num
 \bibliography{main}       % 你的 .bib 文件名（注意不是 .bbl）
