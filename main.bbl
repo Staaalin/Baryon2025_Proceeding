@@ -9,10 +9,6 @@
 I.~G. Bearden, et~al., {Nuclear stopping in Au + Au collisions at $\sqrt{s_{\text{NN}}}$ = 200 GeV}, Phys. Rev. Lett. 93 (2004) 102301.
 \newblock \href {http://arxiv.org/abs/nucl-ex/0312023} {\path{arXiv:nucl-ex/0312023}}, \href {https://doi.org/10.1103/PhysRevLett.93.102301} {\path{doi:10.1103/PhysRevLett.93.102301}}.
 
-\bibitem{SHPIACA}
-J.~Adam, et~al., {Strange hadron production in Au+Au collisions at $\sqrt{s_{_{\mathrm{NN}}}}$ = 7.7, 11.5, 19.6, 27, and 39 GeV}, Phys. Rev. C 102~(3) (2020) 034909.
-\newblock \href {http://arxiv.org/abs/1906.03732} {\path{arXiv:1906.03732}}, \href {https://doi.org/10.1103/PhysRevC.102.034909} {\path{doi:10.1103/PhysRevC.102.034909}}.
-
 \bibitem{KharzeevCGTBN}
 D.~Kharzeev, {Can gluons trace baryon number?}, Phys. Lett. B 378 (1996) 238--246.
 \newblock \href {http://arxiv.org/abs/nucl-th/9602027} {\path{arXiv:nucl-th/9602027}}, \href {https://doi.org/10.1016/0370-2693(96)00435-2} {\path{doi:10.1016/0370-2693(96)00435-2}}.
@@ -24,9 +20,5 @@ W.-J. Dong, X.-Z. Yu, S.-Y. Ping, X.-T. Wu, G.~Wang, H.~Z. Huang, Z.-W. Lin, {St
 \bibitem{Lin:2004en}
 Z.-W. Lin, C.~M. Ko, B.-A. Li, B.~Zhang, S.~Pal, {A Multi-phase transport model for relativistic heavy ion collisions}, Phys. Rev. C 72 (2005) 064901.
 \newblock \href {http://arxiv.org/abs/nucl-th/0411110} {\path{arXiv:nucl-th/0411110}}, \href {https://doi.org/10.1103/PhysRevC.72.064901} {\path{doi:10.1103/PhysRevC.72.064901}}.
-
-\bibitem{Bass:1998ca}
-S.~A. Bass, et~al., {Microscopic models for ultrarelativistic heavy ion collisions}, Prog. Part. Nucl. Phys. 41 (1998) 255--369.
-\newblock \href {http://arxiv.org/abs/nucl-th/9803035} {\path{arXiv:nucl-th/9803035}}, \href {https://doi.org/10.1016/S0146-6410(98)00058-1} {\path{doi:10.1016/S0146-6410(98)00058-1}}.
 
 \end{thebibliography}
