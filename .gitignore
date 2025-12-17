@@ -5,3 +5,8 @@ main.aux
 *.fls
 *.gz
 *.xdv
+*.fdb_latexmk
+*.gz
+*.tex
+*.xdv
+*.aux

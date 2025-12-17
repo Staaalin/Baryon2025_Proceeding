@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex main"] 1765891965.19419 "main.aux" "main.bbl" "main" 1765943119.52534 0
+["bibtex main"] 1765891965.19419 "main.aux" "main.bbl" "main" 1765943195.20325 0
   "./main.bib" 1765012978.67484 2641 ddf03b26de59d46af70859e31917d992 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/elsarticle/elsarticle-num.bst" 1736456871 29462 3b2a1af2ce1e224a3b46ee048ffd4b98 ""
-  "main.aux" 1765943119.33609 2650 bf270173b9edb5a2c3e7ee12a97b4f54 "xelatex"
+  "main.aux" 1765943195.04388 2650 21f141276d36e616a514f7ed030c04bc "xelatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
 ["xdvipdfmx"] 0 "main.xdv" "main.pdf" "main" 0 -1
-  "main.xdv" 1765943119.33677 101372 ca1faccb823482cd6eda1b70ef23248c "xelatex"
+  "main.xdv" 1765943195.04458 100020 3433c0c279a2d597ce0271a7d7deac3b "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1765943118.96871 "/Users/svianping/Documents/GitHub/Baryon2025_Proceeding/main.tex" "main.xdv" "main" 1765943119.52545 2
-  "/Users/svianping/Documents/GitHub/Baryon2025_Proceeding/main.tex" 1765943118.10338 11636 5602db8eeb5afe4e08e6c9dd645d6a9c ""
+["xelatex"] 1765943194.65858 "/Users/svianping/Documents/GitHub/Baryon2025_Proceeding/main.tex" "main.xdv" "main" 1765943195.20336 2
+  "/Users/svianping/Documents/GitHub/Baryon2025_Proceeding/main.tex" 1765943193.83925 11499 43b3f4380e5f9f8229251e8dd1382b9c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/pxfonts/pxex.tfm" 1136768653 1088 b1a11d38cc309c3730510ab8754a87f8 ""
@@ -173,10 +173,10 @@
   "fig/62_KpL_AMPT.jpg" 1765889234.05628 94022 db09c60d6061a120ed40122bd6c9f830 ""
   "fig/62_KpX_AMPT.jpg" 1765889234.05891 91563 b1e4beea12768e6aa7dcf4229eb27dc5 ""
   "fig/ProductionOfOmega.png" 1764642269.35624 259391 cb43177f59ee2825e15f3659f161860c ""
-  "main.aux" 1765943119.33609 2650 bf270173b9edb5a2c3e7ee12a97b4f54 "xelatex"
+  "main.aux" 1765943195.04388 2650 21f141276d36e616a514f7ed030c04bc "xelatex"
   "main.bbl" 1765891965.26668 1685 cbf1c11a4f52f5692f14db509d774a4c "bibtex main"
-  "main.out" 1765943119.33662 544 dc2fcd1913c2c28a7490faa88cc84ce0 "xelatex"
-  "main.tex" 1765943118.10338 11636 5602db8eeb5afe4e08e6c9dd645d6a9c ""
+  "main.out" 1765943195.04444 544 dc2fcd1913c2c28a7490faa88cc84ce0 "xelatex"
+  "main.tex" 1765943193.83925 11499 43b3f4380e5f9f8229251e8dd1382b9c ""
   "pdfwidgets.sty" 1764395323.09339 12478 4b0b26fb763666d05adebeebec43ec4a ""
   "rvdtx.sty" 1764395323.09347 14106 6cefe3da5d0db765b4a7ef8e32d9027c ""
   (generated)
