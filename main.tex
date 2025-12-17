@@ -92,7 +92,8 @@ Because the gluonic fields tend to carry larger momentum fraction and interact l
 
 Figure~\ref{ProductionOfOmega} uses $\Omega$ as an example to illustrate two hyperon production mechanisms~\cite{Dong:2023zbu}. 
 We categorize $K^+$ into $K^+_T$, $K^+_P$, and $K^+_U$, produced via scenario 1, scenario 2, and uncorrelated sources, respectively. 
-$H_T$ and $H_P$ represent hyperons produced with and without BNT, respectively. To measure the hyperon-kaon correlation, we calculate the pair distributions $P^{\text{same}}_{KH}$ in same events and $P^{\text{mix}}_{KH}$ in mixed events, where $P^{\text{mix}}_{KH}$ is normalized such that $\sum_{\text{pairs}} P^{\text{mix}}_{KH} = \sum_{\text{pairs}} P^{\text{same}}_{KH}$.
+$H_T$ and $H_P$ represent the hyperons (e.g. $\Lambda$ and $\Xi$) produced with and without BNT, respectively. 
+To measure the hyperon-kaon correlation, we calculate the pair distributions $P^{\text{same}}_{KH}$ in same events and $P^{\text{mix}}_{KH}$ in mixed events, where $P^{\text{mix}}_{KH}$ is normalized such that $\sum_{\text{pairs}} P^{\text{mix}}_{KH} = \sum_{\text{pairs}} P^{\text{same}}_{KH}$.
 Only $P^{\text{same}}_{K^+_T H_T}$ contains correlation information related to baryon stopping. 
 Assuming that the spectra satisfy $K^+_P = K^-$, $H_P = \overline{H}$, and $K^+_U = K^-_U$, we extract the genuine interaction term as
 \begin{equation}
@@ -128,13 +129,12 @@ where the normalization factor $N$ is chosen such that the sum of positive bins 
 
 \section{Simulation Results}
 
-We perform model simulations for both $K\!-\!\Lambda$ and $K\!-\!\Xi$ using a multiphase transport (AMPT) model~\cite{Lin:2004en} (Version 2.25t7cu with String Melting).  
+We perform model simulations for both $C^{\text{CBS}}_{K\Lambda}(\Delta y)$ and $C^{\text{CBS}}_{K\Xi}(\Delta y)$ using a multiphase transport (AMPT) model~\cite{Lin:2004en} (Version 2.25t7cu with String Melting).  
 A detector acceptance cut $\string| \eta \string| < 1.5$ is applied to both kaons and hyperons to mimic realistic experimental conditions.
 
 Figure~\ref{FIG_Acc_AMPT} shows similar patterns for both $C^{\text{CBS}}_{K\Lambda}(\Delta y)$ and $C^{\text{CBS}}_{K\Xi}(\Delta y)$ in $p$+Au collisions at $\sqrt{s_{NN}}=$ 39 and 62 GeV.  
 A peak appears near $\Delta y \simeq -1.5 \sim 0.5$, indicating that the correlated kaons tend to be emitted slightly slower than the corresponding hyperons that carry baryon number.  
-For hyperons emitted with positive and negative rapidity, the correlation functions $C^{\text{CBS}}_{KH_{y>0}}(\Delta y)$ and $C^{\text{CBS}}_{KH_{y<0}}(\Delta y)$ are shown as blue and red markers, respectively.  
-The difference $C^{\text{CBS}}_{KH_{y>0}}(\Delta y) - C^{\text{CBS}}_{KH_{y<0}}(\Delta y)$ is plotted as black points, where peaks and their neighboring points are connected by red lines to highlight the contrast.
+For hyperons emitted with positive and negative rapidity, the correlation functions $C^{\text{CBS}}_{KH_{y>0}}(\Delta y)$ and $C^{\text{CBS}}_{KH_{y<0}}(\Delta y)$ are shown as blue and red markers, respectively, and the difference $C^{\text{CBS}}_{KH_{y>0}}(\Delta y) - C^{\text{CBS}}_{KH_{y<0}}(\Delta y)$ is plotted as black points to highlight the contrast.
 
 \begin{figure*}[!htb]
   \begin{subfigure}{0.24\hsize}
@@ -161,7 +161,7 @@ The difference $C^{\text{CBS}}_{KH_{y>0}}(\Delta y) - C^{\text{CBS}}_{KH_{y<0}}(
       \caption{}
       \label{62_KpX_AMPT}
   \end{subfigure}
-  \caption{AMPT calculations of $C^{\text{CBS}}_{K\Lambda}(\Delta y)$ and $C^{\text{CBS}}_{K\Xi}(\Delta y)$ correlations in $p$+Au collisions at $\sqrt{s_{NN}} =$ 39 and 62 GeV.}
+  \caption{AMPT calculations of $C^{\text{CBS}}_{K\Lambda}(\Delta y)$ and $C^{\text{CBS}}_{K\Xi}(\Delta y)$ at 39 and 62 GeV.}
   \label{FIG_Acc_AMPT}
 \end{figure*}
 

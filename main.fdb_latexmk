@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex main"] 1765199194.4561 "main.aux" "main.bbl" "main" 1765199195.66262 0
+["bibtex main"] 1765891965.19419 "main.aux" "main.bbl" "main" 1765892010.02532 0
   "./main.bib" 1765012978.67484 2641 ddf03b26de59d46af70859e31917d992 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/elsarticle/elsarticle-num.bst" 1736456871 29462 3b2a1af2ce1e224a3b46ee048ffd4b98 ""
-  "main.aux" 1765199195.50878 3236 a48057288df4d0dcc34c8d3056f42d49 "xelatex"
+  "main.aux" 1765892009.86219 2649 ec37a08d33e36140eb1f30e01cdf3e62 "xelatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
 ["xdvipdfmx"] 0 "main.xdv" "main.pdf" "main" 0 -1
-  "main.xdv" 1765199195.50927 128404 66eb16a64337a365f4e155a237198ab6 "xelatex"
+  "main.xdv" 1765892009.86292 100060 20f8c4dd58333b8b64d08d2c016c8593 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1765199195.15026 "/Users/svianping/Documents/GitHub/Baryon2025_Proceeding/main.tex" "main.xdv" "main" 1765199195.66274 2
-  "/Users/svianping/Documents/GitHub/Baryon2025_Proceeding/main.tex" 1765199194.25337 13409 963c85ac4f72723fd0a48ecc96ed4d24 ""
+["xelatex"] 1765892009.51165 "/Users/svianping/Documents/GitHub/Baryon2025_Proceeding/main.tex" "main.xdv" "main" 1765892010.02543 2
+  "/Users/svianping/Documents/GitHub/Baryon2025_Proceeding/main.tex" 1765892008.68314 10974 f5000eb87d67e83a2c375d7222e4c2aa ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/pxfonts/pxex.tfm" 1136768653 1088 b1a11d38cc309c3730510ab8754a87f8 ""
@@ -165,17 +165,15 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1756419321 5639797 d2dca5fc08af4a6f5c9d2d3fff109a1d ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "fig/39_KpL_AMPT.jpg" 1765194891.09372 89417 2f361a1fd92599107838c52b0857c7a4 ""
-  "fig/39_KpL_UrQMD.jpg" 1765194891.19106 96061 4bd104d63a9f726b473fb99e2a426495 ""
-  "fig/39_KpX_AMPT.jpg" 1765194891.28784 93487 7a7d3bfc11832865e5825da6cf7d29b6 ""
-  "fig/62_KpL_AMPT.jpg" 1765194890.79761 90783 7201abf9c36746f373351b6e6277ca23 ""
-  "fig/62_KpL_UrQMD.jpg" 1765194890.89611 103014 e00000e85298ee0799f9d1dec093d1a8 ""
-  "fig/62_KpX_AMPT.jpg" 1765194890.9969 95986 aee8e58075462596e51e7cc379f50e01 ""
+  "fig/39_KpL_AMPT.jpg" 1765889234.05242 86097 4e9eeb2995eb5a1dc87fcde87559fffd ""
+  "fig/39_KpX_AMPT.jpg" 1765889234.05522 88586 3b97cbef6dd5f1c73cbe23f6dafb3f8c ""
+  "fig/62_KpL_AMPT.jpg" 1765889234.05628 94022 db09c60d6061a120ed40122bd6c9f830 ""
+  "fig/62_KpX_AMPT.jpg" 1765889234.05891 91563 b1e4beea12768e6aa7dcf4229eb27dc5 ""
   "fig/ProductionOfOmega.png" 1764642269.35624 259391 cb43177f59ee2825e15f3659f161860c ""
-  "main.aux" 1765199195.50878 3236 a48057288df4d0dcc34c8d3056f42d49 "xelatex"
-  "main.bbl" 1765199194.5291 2379 dab7cf71640d9f2791964d781fb0f5cd "bibtex main"
-  "main.out" 1765199195.50914 529 3afa83124d4495b140c58b989aa54ba6 "xelatex"
-  "main.tex" 1765199194.25337 13409 963c85ac4f72723fd0a48ecc96ed4d24 ""
+  "main.aux" 1765892009.86219 2649 ec37a08d33e36140eb1f30e01cdf3e62 "xelatex"
+  "main.bbl" 1765891965.26668 1685 cbf1c11a4f52f5692f14db509d774a4c "bibtex main"
+  "main.out" 1765892009.86276 544 dc2fcd1913c2c28a7490faa88cc84ce0 "xelatex"
+  "main.tex" 1765892008.68314 10974 f5000eb87d67e83a2c375d7222e4c2aa ""
   "pdfwidgets.sty" 1764395323.09339 12478 4b0b26fb763666d05adebeebec43ec4a ""
   "rvdtx.sty" 1764395323.09347 14106 6cefe3da5d0db765b4a7ef8e32d9027c ""
   (generated)
