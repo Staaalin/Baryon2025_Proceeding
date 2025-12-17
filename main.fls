@@ -232,10 +232,16 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/enumerate.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/enumerate.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/natbib/natbib.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/natbib/natbib.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty

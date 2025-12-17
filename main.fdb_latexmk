@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex main"] 1765891965.19419 "main.aux" "main.bbl" "main" 1765943068.04726 0
+["bibtex main"] 1765891965.19419 "main.aux" "main.bbl" "main" 1765943119.52534 0
   "./main.bib" 1765012978.67484 2641 ddf03b26de59d46af70859e31917d992 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/elsarticle/elsarticle-num.bst" 1736456871 29462 3b2a1af2ce1e224a3b46ee048ffd4b98 ""
-  "main.aux" 1765943067.89455 2649 ec37a08d33e36140eb1f30e01cdf3e62 "xelatex"
+  "main.aux" 1765943119.33609 2650 bf270173b9edb5a2c3e7ee12a97b4f54 "xelatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
 ["xdvipdfmx"] 0 "main.xdv" "main.pdf" "main" 0 -1
-  "main.xdv" 1765943067.89523 100132 f44f7d322d4b2cebc015df117430a929 "xelatex"
+  "main.xdv" 1765943119.33677 101372 ca1faccb823482cd6eda1b70ef23248c "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1765943067.54663 "/Users/svianping/Documents/GitHub/Baryon2025_Proceeding/main.tex" "main.xdv" "main" 1765943068.04736 2
-  "/Users/svianping/Documents/GitHub/Baryon2025_Proceeding/main.tex" 1765943066.68953 10981 b8f0e639f51cea36c21b92b83227a575 ""
+["xelatex"] 1765943118.96871 "/Users/svianping/Documents/GitHub/Baryon2025_Proceeding/main.tex" "main.xdv" "main" 1765943119.52545 2
+  "/Users/svianping/Documents/GitHub/Baryon2025_Proceeding/main.tex" 1765943118.10338 11636 5602db8eeb5afe4e08e6c9dd645d6a9c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/pxfonts/pxex.tfm" 1136768653 1088 b1a11d38cc309c3730510ab8754a87f8 ""
@@ -96,7 +96,10 @@
   "/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty" 1576624663 7008 f92eaa0a3872ed622bbf538217cd2ab7 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1359763108 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty" 1359763108 13829 94730e64147574077f8ecfea9bb69af4 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1717359999 2222 2166a1f7827be30ddc30434e5efcee1b ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty" 1717359999 4173 d22509bc0c91281d991b2de7c88720dd ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty" 1730928152 88370 c780f23aea0ece6add91e09b44dca2cd ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty" 1717359999 4474 23ca1d3a79a57b405388059456d0a8df ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty" 1717359999 2444 71618ea5f2377e33b04fb97afdd0eac2 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/atveryend/atveryend.sty" 1728505250 1695 be6b4d13b33db697fd3fd30b24716c1a ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls" 1738182759 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
@@ -170,10 +173,10 @@
   "fig/62_KpL_AMPT.jpg" 1765889234.05628 94022 db09c60d6061a120ed40122bd6c9f830 ""
   "fig/62_KpX_AMPT.jpg" 1765889234.05891 91563 b1e4beea12768e6aa7dcf4229eb27dc5 ""
   "fig/ProductionOfOmega.png" 1764642269.35624 259391 cb43177f59ee2825e15f3659f161860c ""
-  "main.aux" 1765943067.89455 2649 ec37a08d33e36140eb1f30e01cdf3e62 "xelatex"
+  "main.aux" 1765943119.33609 2650 bf270173b9edb5a2c3e7ee12a97b4f54 "xelatex"
   "main.bbl" 1765891965.26668 1685 cbf1c11a4f52f5692f14db509d774a4c "bibtex main"
-  "main.out" 1765943067.89509 544 dc2fcd1913c2c28a7490faa88cc84ce0 "xelatex"
-  "main.tex" 1765943066.68953 10981 b8f0e639f51cea36c21b92b83227a575 ""
+  "main.out" 1765943119.33662 544 dc2fcd1913c2c28a7490faa88cc84ce0 "xelatex"
+  "main.tex" 1765943118.10338 11636 5602db8eeb5afe4e08e6c9dd645d6a9c ""
   "pdfwidgets.sty" 1764395323.09339 12478 4b0b26fb763666d05adebeebec43ec4a ""
   "rvdtx.sty" 1764395323.09347 14106 6cefe3da5d0db765b4a7ef8e32d9027c ""
   (generated)
