@@ -25,6 +25,12 @@
 \usepackage{pdfwidgets}
 \usepackage{enumerate}
 \usepackage[numbers]{natbib}
+\let\iint\relax 
+\let\iint\relax
+\let\iiint\relax
+\let\iiiint\relax
+\let\idotsint\relax
+\usepackage{amsmath}
 \usepackage{amstext}
 \usepackage{subcaption}
 
@@ -97,16 +103,31 @@ $H_T$ and $H_P$ represent the hyperons (e.g. $\Lambda$ and $\Xi$) produced with 
 To measure the hyperon-kaon correlation, we calculate the pair distributions $P^{\text{same}}_{KH}$ in same events and $P^{\text{mix}}_{KH}$ in mixed events, where $P^{\text{mix}}_{KH}$ is normalized such that $\sum_{\text{pairs}} P^{\text{mix}}_{KH} = \sum_{\text{pairs}} P^{\text{same}}_{KH}$.
 Only $P^{\text{same}}_{K^+_T H_T}$ contains correlation information related to baryon stopping. 
 Assuming that the spectra satisfy $K^+_P = K^-$, $H_P = \overline{H}$, and $K^+_U = K^-_U$, we extract the genuine interaction term as
-\begin{equation}
-  P^{\text{same}}_{K^+_T H_T} =
-  P^{\text{same}}_{K^+H} - P^{\text{same}}_{K^-\overline{H}} - P^{\text{same}}_{K^-H} - P^{\text{same}}_{K^+\overline{H}} + 2P^{\text{mix}}_{K^-\overline{H}} \,,
-\end{equation}
-\begin{equation}
-  P^{\text{mix}}_{K^+_T H_T} =
-  P^{\text{mix}}_{K^+H} + P^{\text{mix}}_{K^-\overline{H}} - P^{\text{mix}}_{K^-H} - P^{\text{mix}}_{K^+\overline{H}} \,.
-\end{equation}
+% \begin{equation}
+%   P^{\text{same}}_{K^+_T H_T} =
+%   P^{\text{same}}_{K^+H} - P^{\text{same}}_{K^-\overline{H}} - P^{\text{same}}_{K^-H} - P^{\text{same}}_{K^+\overline{H}} + 2P^{\text{mix}}_{K^-\overline{H}} \,,
+% \end{equation}
+% \begin{equation}
+%   P^{\text{mix}}_{K^+_T H_T} =
+%   P^{\text{mix}}_{K^+H} + P^{\text{mix}}_{K^-\overline{H}} - P^{\text{mix}}_{K^-H} - P^{\text{mix}}_{K^+\overline{H}} \,.
+% \end{equation}
+
+\begin{align}
+  P^{\text{same}}_{K^+_T H_T} &= 
+  P^{\text{same}}_{K^+H} - P^{\text{same}}_{K^-\overline{H}} 
+  - P^{\text{same}}_{K^-H} - P^{\text{same}}_{K^+\overline{H}} 
+  + 2P^{\text{mix}}_{K^-\overline{H}} \,,\\
+  P^{\text{mix}}_{K^+_T H_T} &=
+  P^{\text{mix}}_{K^+H} + P^{\text{mix}}_{K^-\overline{H}} 
+  - P^{\text{mix}}_{K^-H} - P^{\text{mix}}_{K^+\overline{H}} \,.
+\end{align}
+
+testing 123456vtesting 123456testing 123456
+testing 123456testing 123456testing 123456
+testing 123456testing 123456testing 123456
 
 \begin{figure}
+\centering
   \includegraphics[width=0.6\hsize]{fig/ProductionOfOmega.png}
   \caption{Two scenarios of $\Omega$ production. Left: associate production. Right: pair production. The dashed box highlight pair-produced $s\text{--}\overline{s}$ quarks. The $u$ and $d$ quarks outside the box originate from the incoming baryons, indicating baryon number transport in Scenario 1.}
   \label{ProductionOfOmega}
