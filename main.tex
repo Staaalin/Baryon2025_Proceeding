@@ -73,7 +73,7 @@
 
 \title{\normalsize Probing Baryon Number Transport and Strangeness Production Dynamics with Hyperon-Kaon Correlations}
 
-\author{Si-Yuan Ping, Xiao-Zhou Yu, Xia-Tong Wu, Long Ma, Gang Wang, Huan Zhong Huang}
+\author{Si-Yuan Ping, Xiao-Zhou Yu, Long Ma}
 % \contact{elsarticle@stmdocs.in}
 
 \version{3.4c}
@@ -81,78 +81,80 @@
 \maketitle
 
 \begin{abstract}
-Positive net hyperon yields at mid-rapidity in nuclear collisions at RHIC energies indicate that baryon number can be transported across a large rapidity gap from the incoming nucleons. The gluon junction model, in which a $Y$-shaped gluonic configuration carries the baryon number, provides a plausible mechanism for such transport. Because hyperon production must be accompanied by strange mesons, hyperon–kaon correlations offer a sensitive probe of both baryon number transport and strangeness conservation. In this work, we study these correlations in $p$+Au collisions at $\sqrt{s_{NN}}=39$ and 62 GeV using AMPT simulations, and discuss their relevance as a baseline for future experimental measurements.
+Positive net hyperon yields at mid-rapidity in nuclear collisions at RHIC energies indicate that baryon number can be transported across a large rapidity gap from the incoming nucleons. The gluon junction model, in which a $Y$-shaped gluonic configuration carries the baryon number, provides a plausible interaction mechanism for efficient transport over a large rapidity gap. Because of strangeness conservation, hyperon production with strange quarks must be accompanied with anti-strange quarks which may be carried by strange mesons. Thus hyperon–kaon correlations offer a sensitive probe of both baryon number transport and strangeness conservation. In this work, we study these correlations in $p$+Au collisions at $\sqrt{s_{NN}}=39$ and $62$ GeV using AMPT simulations. These results may serve as a baseline for future experimental measurements.
 \end{abstract}
 
 \section{Introduction}
 
-The excess of baryons over antibaryons observed at mid-rapidity in heavy-ion collisions~\cite{NSIACA} indicates that baryon number is transported from the beam rapidity to mid-rapidity. This process is known as baryon number transport (BNT).
-During this stopping process, pair-produced $\overline{s}$ quarks may form kaons by combining with valence quarks from the incoming baryons.
-As a result, hyperons become correlated with these kaons, providing a cleaner and more selective probe of BNT than proton or pion observables.
+The excess of baryons over antibaryons at mid-rapidity in heavy-ion collisions~\cite{NSIACA} indicates that baryon number is transported from beam to mid-rapidity. This process is known as baryon number transport (BNT). Strangeness conservation dictates that strange and anti-strange quarks must be produced in pairs. When hyperons containing strange quarks are formed, the pair-produced $\overline{s}$ quarks may form kaons by combining with valence quarks from the incoming baryons.
+As a result, hyperons are correlated with these kaons, providing dynamically sensitive unique probes of BNT which are different from proton or pion observables.
 
-Two theoretical pictures have been proposed for baryon stopping: the valence-quark picture and the baryon-junction model~\cite{KharzeevCGTBN}.
-In the former, the baryon number is carried by valence quarks themselves, while in the latter it is carried by a $Y$-shaped gluonic junction.
-Because the gluonic fields tend to carry larger momentum fraction and interact longer in the collision, the baryon-junction picture offers a more plausible mechanism for the observed stopping at mid-rapidity.
+Two theoretical pictures have been proposed in literature for baryon stopping: the valence-quark picture and the baryon-junction model~\cite{KharzeevCGTBN}.
+In the former, baryon number is carried by valence quarks in the nucleon, whereas in the latter it is carried by a $Y$-shaped gluonic junction.
+Since the junction is connected to the valence quarks, many stopping phenomena can be described in either picture.
+The junction picture, however, allows for a unique interaction mechanism in which the gluonic junction can be stopped near mid-rapidity, leading to baryon number transport over a large rapidity gap from beam to mid-rapidity.
+This mechanism provides an efficient description of BNT and a plausible origin of net baryons at mid-rapidity in high-energy nuclear collisions.
 
 \section{Correlation Function}
 
-Figure~\ref{ProductionOfOmega} uses $\Omega$ as an example to illustrate two hyperon production mechanisms~\cite{Dong:2023zbu}. 
-We categorize $K^+$ into $K^+_T$, $K^+_P$, and $K^+_U$, produced via scenario 1, scenario 2, and uncorrelated sources, respectively. 
-$H_T$ and $H_P$ represent the hyperons (e.g. $\Lambda$ and $\Xi$) produced with and without BNT, respectively. 
-To measure the hyperon-kaon correlation, we calculate the pair distributions $P^{\text{same}}_{KH}$ in same events and $P^{\text{mix}}_{KH}$ in mixed events, where $P^{\text{mix}}_{KH}$ is normalized such that $\sum_{\text{pairs}} P^{\text{mix}}_{KH} = \sum_{\text{pairs}} P^{\text{same}}_{KH}$.
-Only $P^{\text{same}}_{K^+_T H_T}$ contains correlation information related to baryon stopping. 
+Figure~\ref{ProductionOfOmega} illustrates two hyperon production mechanisms~\cite{Dong:2023zbu} using $\Omega$ as an example. 
+We categorize $K^+$ into $K^+_T$, $K^+_P$, and $K^+_U$, produced via general associated production, general pair production, and uncorrelated sources, respectively. 
+$H_T$ and $H_P$ represent the hyperons (e.g. $\Lambda$ and $\Xi$) produced with Transport and with Pair, respectively.
+The hyperon-kaon correlation is constructed from pair distributions $P^{\text{same}}_{HK}$ in same events and $P^{\text{mix}}_{HK}$ in mixed events, where $P^{\text{mix}}_{HK}$ is normalized such that $\sum_{\text{pairs}} P^{\text{mix}}_{HK} = \sum_{\text{pairs}} P^{\text{same}}_{HK}$.
+
+Only $P^{\text{same}}_{H_T K^+_T}$ contains correlation information related to baryon stopping. 
 Assuming that the spectra satisfy $K^+_P = K^-$, $H_P = \overline{H}$, and $K^+_U = K^-_U$, we extract the genuine interaction term as
 % \begin{equation}
-%   P^{\text{same}}_{K^+_T H_T} =
-%   P^{\text{same}}_{K^+H} - P^{\text{same}}_{K^-\overline{H}} - P^{\text{same}}_{K^-H} - P^{\text{same}}_{K^+\overline{H}} + 2P^{\text{mix}}_{K^-\overline{H}} \,,
+%   P^{\text{same}}_{H_T K^+_T} =
+%   P^{\text{same}}_{HK^+} - P^{\text{same}}_{\overline{H}K^-} - P^{\text{same}}_{HK^-} - P^{\text{same}}_{\overline{H}K^+} + 2P^{\text{mix}}_{\overline{H}K^-} \,,
 % \end{equation}
 % \begin{equation}
-%   P^{\text{mix}}_{K^+_T H_T} =
-%   P^{\text{mix}}_{K^+H} + P^{\text{mix}}_{K^-\overline{H}} - P^{\text{mix}}_{K^-H} - P^{\text{mix}}_{K^+\overline{H}} \,.
+%   P^{\text{mix}}_{H_T K^+_T} =
+%   P^{\text{mix}}_{HK^+} + P^{\text{mix}}_{\overline{H}K^-} - P^{\text{mix}}_{HK^-} - P^{\text{mix}}_{\overline{H}K^+} \,.
 % \end{equation}
 
 \begin{align}
-  P^{\text{same}}_{K^+_T H_T} &= 
-  P^{\text{same}}_{K^+H} - P^{\text{same}}_{K^-\overline{H}} 
-  - P^{\text{same}}_{K^-H} - P^{\text{same}}_{K^+\overline{H}} 
-  + 2P^{\text{mix}}_{K^-\overline{H}} \,,\\
-  P^{\text{mix}}_{K^+_T H_T} &=
-  P^{\text{mix}}_{K^+H} + P^{\text{mix}}_{K^-\overline{H}} 
-  - P^{\text{mix}}_{K^-H} - P^{\text{mix}}_{K^+\overline{H}} \,.
+  P^{\text{same}}_{H_T K^+_T} &= 
+  P^{\text{same}}_{HK^+} - P^{\text{same}}_{\overline{H}K^-} 
+  - P^{\text{mix}}_{HK^-} - P^{\text{mix}}_{\overline{H}K^+} 
+  + 2P^{\text{mix}}_{\overline{H}K^-} \,,\\
+  P^{\text{mix}}_{H_T K^+_T} &=
+  P^{\text{mix}}_{HK^+} + P^{\text{mix}}_{\overline{H}K^-} 
+  - P^{\text{mix}}_{HK^-} - P^{\text{mix}}_{\overline{H}K^+} \,.
 \end{align}
 
 
 \begin{figure}
 \centering
-  \includegraphics[width=0.6\hsize]{fig/ProductionOfOmega.png}
+  \includegraphics[width=0.8\hsize]{fig/ProductionOfOmega.png}
   \caption{Two scenarios of $\Omega$ production. Left: associate production. Right: pair production. The dashed box highlight pair-produced $s\text{--}\overline{s}$ quarks. The $u$ and $d$ quarks outside the box originate from the incoming baryons, indicating baryon number transport in Scenario 1.}
   \label{ProductionOfOmega}
 \end{figure}
 
-In $p$+Au collisions, the incident protons travel at positive rapidity, and the Au nuclei at negative rapidity. 
-We compare the hyperon–kaon correlations using hyperons with different rapidity signs, since hyperons at positive rapidity are more likely to inherit the proton's baryon number and therefore exhibit stronger stopping effects. We define the relative rapidity regardless of the emission direction of hyperons as
+In $p$+Au collisions, the incident protons propagates toward positive rapidity, while the Au nucleus moves toward negative.
+We compare hyperon–kaon correlations using hyperons with different rapidity signs, since hyperons at positive rapidity are more likely to inherit the proton baryon number and thus exhibit stronger stopping effects. We define the relative rapidity regardless of the emission direction of hyperons as
 \begin{equation}
   \Delta y = \theta(y_H)(y_K-y_H) + \theta(-y_H)(y_H-y_K) \, ,
 \end{equation}
-where $\theta(x)$ is the step function, and $y_K$ and $y_H$ are the rapidities of kaons and hyperons, respectively. Thus, $\Delta y > 0$ ($\Delta y < 0$) indicates that the kaon is emitted with a larger (smaller) rapidity than the hyperon.
-To remove the background contribution and reveal the physical correlation, we define the correlation function:
+where $\theta(x)$ is the step function ($\theta(x)=1$ for $x>0$, and 0 otherwise), and $y_K$ ($y_H$) denotes the kaon (hyperon) rapidity. With this definition, $\Delta y > 0$ ($\Delta y < 0$) indicates that the kaon has a larger (smaller) rapidity than the hyperon.
+To suppress background contributions and reveal the physical correlation, we define the correlation function:
 \begin{equation}
-  C^{\text{CBS}}_{KH}(\Delta y) =
+  C^{\text{CBS}}_{HK}(\Delta y) =
   \frac{1}{N}\left[
-  P^{\text{same}}_{K^+_T H_T}(\Delta y) -
-  P^{\text{mix}}_{K^+_T H_T}(\Delta y)
+  P^{\text{same}}_{H_T K^+_T}(\Delta y) -
+  P^{\text{mix}}_{H_T K^+_T}(\Delta y)
   \right] ,
 \end{equation}
-where the normalization factor $N$ is chosen such that the sum of positive bins of $C^{\text{CBS}}_{KH}(\Delta y)$ equals unity.
+where the normalization factor $N$ is chosen such that the sum of positive bins of $C^{\text{CBS}}_{HK}(\Delta y)$ equals unity.
 
 \section{Simulation Results}
 
-We perform model simulations for both $C^{\text{CBS}}_{K\Lambda}(\Delta y)$ and $C^{\text{CBS}}_{K\Xi}(\Delta y)$ using a multiphase transport (AMPT) model~\cite{Lin:2004en} (Version 2.25t7cu with String Melting).  
-A detector acceptance cut $\string| \eta \string| < 1.5$ is applied to both kaons and hyperons to mimic realistic experimental conditions.
+We perform model simulations for both $C^{\text{CBS}}_{\Lambda K}(\Delta y)$ and $C^{\text{CBS}}_{\Xi K}(\Delta y)$ using a multiphase transport (AMPT) model~\cite{Lin:2004en} (V 2.25t7cu, String Melting).  
+An acceptance cut of $\string| \eta \string| < 1.5$ is applied to both kaons and hyperons to mimic experimental conditions similar to the STAR detector.
 
-Figure~\ref{FIG_Acc_AMPT} shows similar patterns for both $C^{\text{CBS}}_{K\Lambda}(\Delta y)$ and $C^{\text{CBS}}_{K\Xi}(\Delta y)$ in $p$+Au collisions at $\sqrt{s_{NN}}=$ 39 and 62 GeV.  
+Figure~\ref{FIG_Acc_AMPT} shows similar patterns for both $C^{\text{CBS}}_{\Lambda K}(\Delta y)$ and $C^{\text{CBS}}_{\Xi K}(\Delta y)$ in $p$+Au collisions at $\sqrt{s_{NN}}=$ 39 and 62 GeV.  
 A peak appears near $\Delta y \simeq -1.5 \sim 0.5$, indicating that the correlated kaons tend to be emitted slightly slower than the corresponding hyperons that carry baryon number.  
-For hyperons emitted with positive and negative rapidity, the correlation functions $C^{\text{CBS}}_{KH_{y>0}}(\Delta y)$ and $C^{\text{CBS}}_{KH_{y<0}}(\Delta y)$ are shown as blue and red markers, respectively, and the difference $C^{\text{CBS}}_{KH_{y>0}}(\Delta y) - C^{\text{CBS}}_{KH_{y<0}}(\Delta y)$ is plotted as black points to highlight the contrast.
+For hyperons emitted at positive and negative rapidity, the correlation functions $C^{\text{CBS}}_{H_{y>0}K}(\Delta y)$ and $C^{\text{CBS}}_{H_{y<0}K}(\Delta y)$ are shown as blue and red markers, respectively, and the difference $C^{\text{CBS}}_{H_{y>0}K}(\Delta y) - C^{\text{CBS}}_{H_{y<0}K}(\Delta y)$ is plotted as black points to highlight the contrast.
 
 \begin{figure*}[!htb]
   \begin{subfigure}{0.24\hsize}
@@ -179,26 +181,25 @@ For hyperons emitted with positive and negative rapidity, the correlation functi
       \caption{}
       \label{62_KpX_AMPT}
   \end{subfigure}
-  \caption{AMPT calculations of $C^{\text{CBS}}_{K\Lambda}(\Delta y)$ and $C^{\text{CBS}}_{K\Xi}(\Delta y)$ at 39 and 62 GeV.}
+  \caption{AMPT calculations of $C^{\text{CBS}}_{\Lambda K}(\Delta y)$ and $C^{\text{CBS}}_{\Xi K}(\Delta y)$ at 39 and 62 GeV.}
   \label{FIG_Acc_AMPT}
 \end{figure*}
 
-A pronounced separation is observed between $C^{\text{CBS}}_{K\Lambda_{y<0}}(\Delta y)$ and $C^{\text{CBS}}_{K\Lambda_{y>0}}(\Delta y)$ at 39 GeV, whereas the difference becomes weaker at 62 GeV, as shown in Fig.~\ref{39_KpL_AMPT} and Fig.~\ref{62_KpL_AMPT}. 
-A possible explanation is that the incident protons undergo more collisions than Au nucleons on average, resulting in stronger baryon stopping, which is more pronounced at lower energies. 
+Similar separations are observed between $C^{\text{CBS}}_{\Lambda_{y<0}K}(\Delta y)$ and $C^{\text{CBS}}_{\Lambda_{y>0}K}(\Delta y)$ at both energies, with the black points being negative for $\Delta y \lesssim -1$ and positive for $\Delta y \gtrsim -1$.
+This behavior indicates that $\Lambda_{y>0}$ correlates with faster kaons than $\Lambda_{y<0}$, as shown in Fig.~\ref{39_KpL_AMPT} and Fig.~\ref{62_KpL_AMPT}. 
+One possible explanation is that incident protons experience more collisions on average than nucleons from Au nuclei, leading to stronger baryon stopping and modifying the rapidity gap between strange quark pairs between hyperon and kaon, thereby affecting hyperon–kaon correlations.
+In contrast, $C^{\text{CBS}}_{\Xi K}(\Delta y)$ at 39 and 62 GeV shows a different trend: the $\Xi$–K rapidity gap may be closer to 0 than in the $\Lambda$–K case, although the statistical uncertainties are too large to be conclusive.
+These observations suggest that the number of incident valence quarks carried by the hyperon influences its rapidity-gap correlation with kaons.
 
-In Fig.~\ref{39_KpX_AMPT} and Fig.~\ref{62_KpX_AMPT}, the black points exhibit nearly identical behavior at both energies, indicating that $C^{\text{CBS}}_{K\Xi}(\Delta y)$ show similar difference between $\Xi_{y>0}$ and $\Xi_{y<0}$ for both collision energies. 
-This suggests that hyperons containing more valence $s$ quarks, meaning fewer incident valence quarks, their correlation with kaons may imply a weaker influence from collisions number. 
+The energy dependence is shown in Fig.~\ref{39_KpL_AMPT} and Fig.~\ref{62_KpL_AMPT}, where the black points exhibit larger amplitudes at 62 GeV than at 39 GeV, indicating a stronger separation between $C^{\text{CBS}}_{\Lambda_{y<0}K}(\Delta y)$ and $C^{\text{CBS}}_{\Lambda_{y>0}K}(\Delta y)$ at higher energies. 
+This suggests that AMPT predicts stronger hyperon–kaon correlations in higher-energy collisions, which can be tested experimentally.
 
 \section{Conclusion and Outlook}
 
-Hyperon-kaon correlations provide a sensitive probe of both strangeness production and baryon stopping.  
-By comparing same-event and mixed-event distributions, we extract the correlation on relative rapidity using a new correlation method based on $C^{\text{CBS}}_{KH}(\Delta y)$.  
-In $p$+Au collisions, the hyperons with positive rapidity are more likely to carry the incident proton baryon number, resulting in stronger baryon stopping, as demonstrated for $K\!-\!\Lambda$ and $K\!-\!\Xi$ at $\sqrt{s_{NN}} =$ 39 and 62 GeV in AMPT.  
-We also observe that hyperons with more valence $s$ quarks show weaker stopping, consistent with the valence-quark picture.  
-These results may serve as a useful baseline for future experimental studies and help verify the baryon-junction mechanism.  
-We therefore plan to apply this analysis to experimental data in upcoming work.
-
-
+Hyperon–kaon correlations provide a sensitive probe of strangeness conservation and baryon number transport. By comparing same-event and mixed-event distributions, we extract the correlation in relative rapidity using a new method based on $C^{\text{CBS}}_{HK}(\Delta y)$.
+In $p$+Au collisions, hyperons at positive rapidity are more likely to carry the incident proton's baryon number and undergo more collisions, leading to stronger baryon stopping and distinct correlations with kaons. The magnitude of these differences depends on collision energy and hyperon species with AMPT calculations.
+These results suggest that hyperons at positive rapidity, experiencing a larger and more certain number of collisions, are promising candidates for measuring hyperon–kaon correlations reflecting baryon number transport. AMPT simulations provide a baseline for future experimental studies and can be used to test theoretical models of baryon stopping, including possibly the novel baryon-junction interaction mechanism.
+Experimental measurements of hyperon–kaon correlations are strongly needed.
 
 
 \bibliographystyle{elsarticle-num} % 或 elsarticle-num
